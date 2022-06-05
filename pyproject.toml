@@ -1,6 +1,7 @@
+#This replaces setup.py, and other alternatives: poetry, flit
 [build-system]
 requires = ["setuptools>=42.0", "wheel"]
-build-backend = "setuptools.build_meta"
+build-backend = "setuptools.build_meta"  # Says we are still using the "old way"? (setup.py?)
 
 [tool.pytest.ini_options]
 addopts = "--cov=slapping"
